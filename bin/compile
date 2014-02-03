@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# sync output
+$stdout.sync = true
+$stderr.sync = true
+echo "start complile"
+

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+require 'yaml'
+echo "start release"
+yml = {
+    'addons' => [],
+    'config_vars' => {},
+    'default_process_types' => {
+        'web' => './bin/catalina.sh run'
+    }
+}.to_yaml
+
+puts {}
+
